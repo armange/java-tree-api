@@ -1,0 +1,24 @@
+
+> Task :dependencies FAILED
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+\--- br.com.armange:aj-boilerplate:0.0.1-SNAPSHOT
+     +--- com.google.guava:guava:23.0
+     |    +--- com.google.code.findbugs:jsr305:1.3.9
+     |    +--- com.google.errorprone:error_prone_annotations:2.0.18
+     |    +--- com.google.j2objc:j2objc-annotations:1.1
+     |    \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     \--- org.javassist:javassist:3.24.0-GA
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Dependencies for source set 'main' (deprecated, use 'implementation' instead).
+1 actionable task: 1 executed
